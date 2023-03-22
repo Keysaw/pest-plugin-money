@@ -1,0 +1,22 @@
+{
+	"preset": "laravel",
+	"rules": {
+		"braces": false,
+		"single_quote": {
+			"strings_containing_single_quote_chars": true
+		},
+		"indentation_type": false,
+		"array_indentation": false,
+		"doctrine_annotation_indentation": false,
+		"phpdoc_separation": true,
+		"class_attributes_separation": false,
+		"blank_line_between_import_groups": true,
+		"phpdoc_align": {
+			"align": "vertical"
+		},
+		"return_type_declaration": {
+			"space_before": "one"
+		},
+		"not_operator_with_successor_space": false
+	}
+}
