@@ -1,9 +1,31 @@
-This repository contains the Pest Plugin Template.
+# Pest Plugin Money
 
-> If you want to start testing your application with Pest, visit the main **[Pest Repository](https://github.com/pestphp/pest)**.
+This package is a plugin for [Pest PHP](https://pestphp.com).
 
-- Explore our docs at **[pestphp.com »](https://pestphp.com)**
-- Follow us on Twitter at **[@pestphp »](https://twitter.com/pestphp)**
-- Join us at **[discord.gg/kaHY6p54JH »](https://discord.gg/kaHY6p54JH)** or **[t.me/+kYH5G4d5MV83ODk0 »](https://t.me/+kYH5G4d5MV83ODk0)**
+It provides useful expectations for testing monetary values, provided by popular libraries
+like [brick/money](https://github.com/brick/money), [moneyphp/money](https://github.com/moneyphp/money) and [archtechx/money](https://github.com/archtechx/money).
 
-Pest is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
+It is heavily inspired by [Luke Downing's plugin](https://github.com/lukeraymonddowning/pest-plugin-money), but was updated and tweaked for Pest 2.0. Please check out the original
+repository!
+
+## Installation
+
+To get started, install the plugin using composer:
+
+```bash
+composer require brickx/pest-plugin-money --dev
+```
+
+This package requires the following:
+
+- Pest PHP
+- Either the Brick Money, MoneyPHP or Archtech Money libraries
+- PHP 7.3 or greater
+
+## Usage
+
+_Nothing yet!_
+
+## Contact
+
+Created by [Keysaw](https://github.com/Keysaw).
